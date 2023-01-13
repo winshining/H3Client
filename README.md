@@ -1,4 +1,4 @@
-# HTTP/3 client demo based on [QUIC](https://quicwg.org) library [msquic](https://github.com/microsoft/msquic)
+# A HTTP/3 client demo based on [QUIC](https://quicwg.org) library [msquic](https://github.com/microsoft/msquic)
 
 ## Platforms
 

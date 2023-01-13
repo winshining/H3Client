@@ -623,11 +623,11 @@ int main(int argc, char **argv)
         port_str = "443";
     }
 
-	port = strtol(port_str, NULL, 10);
+    port = strtol(port_str, NULL, 10);
     if (port < 0 || port > 65535 || errno == ERANGE) {
         printf("Invalid port: %s\n", port_str);
         return -2;
-	}
+    }
 
     memset(&receiveBuffer, 0, sizeof(receiveBuffer));
     receiveBuffer.type = H3FrameUnknown;
