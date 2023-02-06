@@ -10,7 +10,7 @@ With [nginx-quic](https://hg.nginx.org/nginx-quic).
 
 ### Note
 
-Build [nginx-quic], please see [README](https://quic.nginx.org/README) for details.
+Build [nginx-quic](https://hg.nginx.org/nginx-quic), please see [README](https://quic.nginx.org/README) for details.
 
 ## Prerequisites
 
@@ -28,7 +28,7 @@ Edit INC\_DIR and LIB\_DIR in Makefile according to your library directory and m
 
 ### Note
 
-If library file **libmsquic.so** is not installed in the standard paths, _/usr/lib_ for example, the environment variable `LD\_LIBRARY\_PATH` must be set (change `path_to_your_library` to your library directory), or program can not load the library:
+If library file **libmsquic.so** is not installed in the standard paths, _/usr/lib_ for example, the environment variable `LD_LIBRARY_PATH` must be set (change `path_to_your_library` to your library directory), or program can not load the library:
 
     export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:path_to_your_library
 
